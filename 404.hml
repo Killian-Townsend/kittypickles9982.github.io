@@ -89,6 +89,8 @@
       
       let fin = "The file <strong>"+file+"</strong>could not be found on the server";
       
+      document.getElementById("mes").innerHTML = fin;
+      
     </script>
 
 </body>
