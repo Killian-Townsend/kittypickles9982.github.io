@@ -68,7 +68,7 @@
     <script>
       
       let file = window.location.href;
-      file = file.slice("/");
+      file = file.split("/");
       file = file[file.length-1];
       
       let fin = "The file <strong>"+file+"</strong> could not be found on the server";
